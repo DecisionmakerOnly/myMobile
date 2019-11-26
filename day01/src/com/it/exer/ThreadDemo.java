@@ -20,6 +20,10 @@ public class ThreadDemo {
                     if(i % 2==0){
                         System.out.println(Thread.currentThread().getName()+":"+ i);
                     }
+                    if(i % 2!=0){
+                        System.out.println(Thread.currentThread().getName()+":"+ i);
+                    }
+                    System.out.println("测试提价");
                 }
             }
         }.start();
