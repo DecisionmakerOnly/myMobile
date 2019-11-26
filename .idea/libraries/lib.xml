@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../qrhfMobile/src/main/webapp/WEB-INF/lib/pageoffice4.5.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../qrhfMobile/src/main/webapp/WEB-INF/lib/sqlite-jdbc-3.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../qrhfMobile/src/main/webapp/WEB-INF/lib/alipay-sdk-java-3.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../qrhfMobile/src/main/webapp/WEB-INF/lib/alipay-sdk-java20170324180803.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../qrhfMobile/src/main/webapp/WEB-INF/lib/alipay-sdk-java20170324180803-source.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../qrhfMobile/src/main/webapp/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../qrhfMobile/src/main/webapp/WEB-INF/lib/alipay-sdk-java-3.7.4.ALL.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../qrhfMobile/src/main/webapp/WEB-INF/lib/json-20170516.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

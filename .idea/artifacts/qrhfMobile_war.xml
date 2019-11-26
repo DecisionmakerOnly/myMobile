@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="qrhfMobile:war">
+    <output-path>$PROJECT_DIR$/../qrhfMobile/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>qrhfMobile</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="qrhf.war">
+      <element id="artifact" artifact-name="qrhfMobile:war exploded" />
+    </root>
+  </artifact>
+</component>
