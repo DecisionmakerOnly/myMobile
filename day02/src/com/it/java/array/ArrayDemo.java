@@ -60,7 +60,7 @@ public class ArrayDemo {
             }else{
                 level='D';
             }
-           System.out.println("student:"+(i+1)+"; score is:"+scores[i]+"; grade is:"+level);
+            System.out.println("student:"+(i+1)+"; score is:"+scores[i]+"; grade is:"+level);
         }
     }
 }
