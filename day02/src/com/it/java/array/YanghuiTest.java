@@ -109,5 +109,13 @@ public class YanghuiTest {
         for (int i = 0; i <array1.length ; i++) {
             System.out.print(array1[i]+"\t");
         }
+        System.out.println();
+        String[] array3=new String[]{"HH","GG","FF","DD","SS","AA"};
+        //复制数组
+        String[] array4=new String[array3.length];
+        for (int i = 0; i <array3.length ; i++) {
+            array4[i]=array3[i];
+            System.out.print(array4[i]+" ");
+        }
     }
 }
