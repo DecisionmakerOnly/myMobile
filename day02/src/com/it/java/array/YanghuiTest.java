@@ -109,15 +109,33 @@ public class YanghuiTest {
         for (int i = 0; i <array1.length ; i++) {
             System.out.print(array1[i]+"\t");
         }
-        System.out.println();
+               System.out.println();
         String[] array3=new String[]{"HH","GG","FF","DD","SS","AA"};
         //复制数组
         String[] array4=new String[array3.length];
+        System.out.println("复制数组为：");
         for (int i = 0; i <array3.length ; i++) {
             array4[i]=array3[i];
-            System.out.print(array4[i]+" ");
+            System.out.print(array4[i]+"\t");
         }
-        System.out.println("愿你乘风而去！");
+        System.out.println();
+        //数组反转
+        //方式一
+//        for (int i = 0; i < array3.length/2; i++) {
+//            String temp=array3[i];
+//            array3[i]=array3[array3.length-i-1];
+//            array3[array3.length-i-1]=temp;
+//        }
+        for (int i = 0,j=array3.length-1; i <j ; i++,j--) {
+            String temp=array3[i];
+            array3[i]=array3[j];
+            array3[j]=temp;
+        }
+        //遍历
+        System.out.println("反转数组为：");
+        for (int i = 0; i <array3.length ; i++) {
+            System.out.print(array3[i]+"\t");
+        }
     
     }
 }
