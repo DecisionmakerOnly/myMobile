@@ -60,8 +60,8 @@ public class ArrayDemo {
             }else{
                 level='D';
             }
+            System.out.println("");
             System.out.println("student:"+(i+1)+"; score is:"+scores[i]+"; grade is:"+level);
-            //这是在测试
         }
     }
 }

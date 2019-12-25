@@ -67,5 +67,7 @@ public class ArrayTest {
         System.out.println("===========数组的内存解析=================");
         //6.数组的内存解析
 
+        int[][] a =new int[][]{{1,2},{3,4}}; //静态初始化
+        int [][] aa=new int[1][2];
     }
 }
