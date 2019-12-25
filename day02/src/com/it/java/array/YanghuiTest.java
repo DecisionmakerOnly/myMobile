@@ -109,6 +109,5 @@ public class YanghuiTest {
         for (int i = 0; i <array1.length ; i++) {
             System.out.print(array1[i]+"\t");
         }
-        //asa
     }
 }
