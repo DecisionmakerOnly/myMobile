@@ -117,5 +117,7 @@ public class YanghuiTest {
             array4[i]=array3[i];
             System.out.print(array4[i]+" ");
         }
+        System.out.println("愿你乘风而去！");
+    
     }
 }
